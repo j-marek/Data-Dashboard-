@@ -3,20 +3,19 @@ import pandas
 
 
 data = {
-  'Series_1':[1, 3, 4, 5, 7],
-  'Series 2':[10, 30, 40, 100, 250]
+  'Spaghetti':[9, 2, 6, 5, 3],
+  'Ravioli':[3, 1, 4, 1, 5]
 }
 
 df = pandas.DataFrame(data)
 
-st.title('Our First Streamlit App')
-st.subheader('Introducing Streamlit in Automate Everything with Python')
-st.write('''This is our first Web App.
-Enjoy it!
+st.title('I made this website')
+st.subheader("It ain't much, but it's honest work")
+st.write('''
+             Here is some data in a table with no real meaning.
 ''')
 st.write(df)
 st.line_chart(df)
-st.area_chart(df)
 
-myslider = st.slider('Celsius')
-st.write(myslider, 'in Fahrenheit is', myslider * 9/5 + 32)
+myslider = st.slider('lbs')
+st.write(myslider, 'in kg is', myslider * 0.453592)
