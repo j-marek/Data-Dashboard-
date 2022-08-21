@@ -3,6 +3,7 @@ import pandas
 
 
 data = {
+  'Noodles':[5, 8, 9, 7, 9],
   'Spaghetti':[9, 2, 6, 5, 3],
   'Ravioli':[3, 1, 4, 1, 5]
 }
