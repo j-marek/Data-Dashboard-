@@ -18,4 +18,4 @@ st.write(df)
 st.line_chart(df)
 
 myslider = st.slider('lbs')
-st.write(myslider, 'in kg is', myslider * 0.453592)
+st.write(myslider, 'lbs in kgs is', myslider * 0.453592)
